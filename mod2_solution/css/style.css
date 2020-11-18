@@ -16,9 +16,18 @@ p{
 }
 section{
 	border: 1px solid black;
-	float: left;
+	margin: 10px;
+	background-color: gray;
 }
-
+#Chicken{
+	background-color: #f46bf5;
+}
+#Beef{
+	background-color: #dd1366;
+}
+#Sushi{
+	background-color: #f2f561;
+}
 @media (min-width: 992px){
 	.col-lg-4{
 		float: left;
