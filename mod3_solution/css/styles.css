@@ -1,0 +1,52 @@
+#header-nav{
+    background-color: blanchedalmond;
+    border-radius: 0;
+}
+.navbar-brand{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.navbar-brand span{
+    font-size: 1.5em;
+}
+#nav-list a{
+    text-align: center;
+    font-size: 1.5em;
+}
+.navbar-toggle{
+    margin-top: 20px;
+}
+#menu{
+    font-size: 2em;
+    margin-top: -10px;
+}
+#main-content{
+    height: 1000px;
+}
+#home-tiles div{
+    margin-bottom: 10px;
+    background-color: darkgray;
+}
+#home-tiles div h3{
+    margin-top: 10px;
+}
+body{
+    padding: 50px;
+}
+/* Medium devices only */
+@media(min-width: 992px) and (max-width: 1199px){
+
+}
+
+/* Small devices only */
+@media(min-width: 768px) and (max-width: 991px){
+
+}
+
+/* Extra small devices only */
+@media(max-width: 767px){
+    .container{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
